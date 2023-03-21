@@ -5,59 +5,65 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio|Home</title>
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
         <header>
+            <a id="logo_link" href="index.html">
+                <img src="images/fradev4.png" alt="portfolio logo">
+            </a>
             <nav id="profile_nav">
-                <a id="logo_link" href="index.html">
-                    <img src="images/fradev2.png" alt="portfolio logo">
-                </a>
-                <div>
-                    <a href="index.html">Home</a>
-                    <a href="projects.html">Projects</a>
-                    <a href="contact-me.html">Contact Me</a>
-                </div>  
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact-me.html">Contact Me</a>
+             
             </nav>
         </header>
 
-        <div>
-            <img src="images/jeff-sheldon-a8K-puaPyVk-unsplas.jpg" alt="image of a developer workspace">
-            <img src="images/Photo_1615655967406.jpg" alt="image of Evans">
+        <div id="home-box">
+            <img id="home-banner" src="images/jeff-sheldon-a8K-puaPyVk-unsplash.jpg" alt="image of a developer workspace">
+            <img id="profile-pic" src="images/profile_pic.jpg" alt="image of Evans">
 
-            <div id="side_menu">
+            <div id="side-menu">
                 <h2>About Me</h2>
-                <a>Education</a>
-                <a>Projects</a>
-                <a>Skills</a>
-                <a>Hiring/Contact</a>
+                <a href="#">Education</a>
+                <a href="projects.html">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#">Hiring/Contact</a>
             </div>
         </div>
 
-        <main>
-            <img src="images/PC_Presentation.png" alt="Evans making a presentation">
-            <div>
+        <main id="home-grid">
+            <img id="home-img" src="images/PC_Presentation.png" alt="Evans making a presentation">
+            <img id="home-background" src="images/derick-mckinney-3s3DiFYdsDE-unsplashed8.jpg" alt="cactus background">
+            <div id="about-me">
+                <h2>About me</h2>
                 <p>
-                    <h2>About me</h2>
-                    Web designer and developer
+                    Web designer and developer<br><br>
                     I am a web designer and developer with great attention to details, 
                     best design practices and user experience. I am creative in solving clients 
-                    website design problems with attention to excellent web functionalities.
+                    website design problems with attention to excellent web functionalities. <br><br>
                     I have two years of experience in web design and development using best
-                    web industry standards. I am currently a student at BYU-Idaho pursuing
+                    web industry standards. <br>I am currently a student at BYU-Idaho pursuing
                     a degree in Applied technology. I am majoring in web and computer programming.
                 </p>
             </div>
-            <div>
+            <div id="skills">
+                <h2>Skills</h2>
                 <p>
-                    <h2>Skills</h2>
-                    I am proficient in HTML and CSS in designing websites. I am also proficient In writing python programs to solve real life problems. I create amazing user interfaces using QT Designer app.
-                    I am a team player and a result driven person with attention to details. I am self-motivated and a fast-pace learner with the need of little or no supervision in completing a project.
+                    I am proficient in HTML and CSS in designing websites. I am also proficient in 
+                    writing python programs to solve real life problems. I create amazing user 
+                    interfaces using QT Designer app.<br><br>
+                    I am a team player and a result driven person with attention to details.
+                    I am self-motivated and a fast-pace learner with the need of little or no 
+                    supervision in completing a project.
                 </p>
             </div>    
-            <div>
+            <div id="interest">
+                <h2>Interest</h2>
                 <p>
-                    <h2>Interest</h2>
-                    Creating designs and arts 	Playing musical instruments and listening to music
+                    Creating designs and arts<br><br>
+                    Playing musical instruments and listening to music.<br><br>
                     I enjoy solving puzzles and riddles.
                 </p>
             </div>
@@ -77,6 +83,7 @@
                 <a href="https://instagram.com" target ="_blank">
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
+            </div>
         </footer>
         
     </body>
