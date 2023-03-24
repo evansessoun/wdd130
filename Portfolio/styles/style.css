@@ -80,14 +80,16 @@ header{
     display:block;
     grid-column:1/2;
     grid-row: 2/3;
-    padding:20px;
+    padding-left:20px;
+    padding-right:20px;
+    width:80%;
     font-size:1.5em;
     justify-items:center;
     background: #007d88ce;
     color:#f1f2f3;
     font-family: "Roboto Condensed", Helvetica, sans-serif;
     z-index: 1;
-    margin-left:100px;
+    margin-left:80px;
 }
 #home-grid{
     color:white;
