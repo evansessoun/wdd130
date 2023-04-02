@@ -55,7 +55,7 @@ header{
 
 }
 
-#home-banner, #projects-banner{
+#home-banner, #projects-banner, #contact-banner{
     display:block;
     width:100%;
     margin:0 auto;
@@ -65,7 +65,7 @@ header{
     z-index: -1;
 }
 
-#banner-msg{
+#banner-msg, #banner-msg2{
     display:block;
     background-color: #01142cac;
     grid-column: 2/5;
@@ -76,6 +76,10 @@ header{
     text-align: center ;
     font-size: 1.5em;
     z-index: 1;
+}
+#banner-msg2{
+    font-size: 2em;
+    color:#76e0e1 ;
 }
 
 #home-box{
@@ -95,6 +99,16 @@ header{
     grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1.2fr 0.1fr 1fr 1fr 1fr 1fr;
 }
+
+.contact-box {
+    color:white;
+    display: grid;
+    height:600px;
+    margin-top: -120px;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.2fr 0.1fr 1fr 1fr 1fr 1fr;
+}
+
 #profile-pic{
     height:200px;
     border-radius:200px;
@@ -141,6 +155,28 @@ header{
     grid-template-rows: 1fr 1fr 1fr 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 
+.contact-grid{
+    display:grid;
+    width:100%;
+    height: 1600px;
+    z-index: -2;
+    margin-top: -10px;
+    background-color: #00c7ca94;
+    color:white;
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    grid-template-columns: 0.5fr 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+#grad{
+    grid-column: 6/13;
+    grid-row: 3/10;
+}
+
+#grad img{
+    display: block;
+    width: 100%;
+}
 #back-img{
     display:block ;
     width: 103%;
@@ -219,7 +255,36 @@ header{
     background-color: #396E94;
     border-color: #01142c ;
     box-shadow: 5px 5px 10px #01142c ;
+
 }
+
+#hire{
+    grid-column:2/5;
+    grid-row:2/5;
+    padding: 20px;
+    font-size: 1.5em;
+    z-index: 1;
+    background-color: #396E94;
+    border-color: #01142c ;
+    box-shadow: 5px 5px 10px #01142c ;
+}
+
+#collab{
+    grid-column:2/5;
+    grid-row:6/11;
+    padding: 20px;
+    font-size: 1.5em;
+    z-index: 1;
+    background-color: #396E94;
+    border-color: #01142c ;
+    box-shadow: 5px 5px 10px #01142c ;
+}
+
+#collab a{
+    color: white;
+    text-decoration:none;
+}
+
 
 #home-img{
     height:100%;
