@@ -322,7 +322,7 @@ header{
     z-index: -1;
 }
 
-footer, #footer2{
+footer, #footer2, #footer3{
     color: white;
     font-family: "Roboto Condensed", Helvetica, sans-serif;
     display:flex;
@@ -333,9 +333,10 @@ footer, #footer2{
     background-color:#01142ca2 ;
 }
 
-#footer2{
+#footer2, #footer3{
     margin-top: -120px;
 }
+
 
 footer a{
     color:white;
